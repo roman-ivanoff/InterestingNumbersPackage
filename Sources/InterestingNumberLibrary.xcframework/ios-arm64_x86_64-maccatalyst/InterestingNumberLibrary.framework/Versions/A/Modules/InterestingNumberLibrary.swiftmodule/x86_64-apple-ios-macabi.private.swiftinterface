@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name InterestingNumberLibrary
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import InterestingNumberLibrary
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum ServiceError : Swift.Error, Foundation.LocalizedError {
+  case invalidURL
+  case invalidResponseStatus
+  case dataTaskError(Swift.String)
+  case corruptData
+  case decodingError(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum Regexes : Swift.String {
+  case userNumber
+  case numberInRange
+  case multipleNumber
+  case numberInRangeForValidation
+  case multipleNumberForValidation
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class TextFieldModel {
+  public static func contains(string: Swift.String, regex: Swift.String) -> Swift.Bool
+  public static func checkBackspace(string: Swift.String) -> Swift.Bool
+  public static func isValidNumberInRange(_ str: Swift.String) -> Swift.Bool
+  public static func isValidMultipleNumbers(_ str: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+#if compiler(>=5.3) && $Actors
+public actor NumbersService {
+  public init(session: Foundation.URLSession = URLSession(configuration: .default))
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getFacts(numbers: Swift.String) async throws -> [Swift.String : Swift.String]
+  #endif
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+#endif
+public protocol InputRuleProtocol {
+  func rule(string: Swift.String) -> Swift.Bool
+}
+public class NumberModel {
+  public var facts: [InterestingNumberLibrary.Fact]
+  final public let number: Swift.String
+  public init(number: Swift.String)
+  public func getFacts(numbers: Swift.String, onSuccess: @escaping ([InterestingNumberLibrary.Fact]) -> Swift.Void, onError: @escaping (InterestingNumberLibrary.ServiceError) -> Swift.Void)
+  @objc deinit
+}
+public struct Fact : Swift.Decodable {
+  public let number: Swift.String
+  public let fact: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct OnlyNumbersRule : InterestingNumberLibrary.InputRuleProtocol {
+  public init(regex: Swift.String)
+  public func rule(string: Swift.String) -> Swift.Bool
+}
+extension InterestingNumberLibrary.Regexes : Swift.Equatable {}
+extension InterestingNumberLibrary.Regexes : Swift.Hashable {}
+extension InterestingNumberLibrary.Regexes : Swift.RawRepresentable {}

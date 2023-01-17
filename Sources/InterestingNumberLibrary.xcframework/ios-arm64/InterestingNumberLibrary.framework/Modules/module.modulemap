@@ -1,0 +1,11 @@
+framework module InterestingNumberLibrary {
+  umbrella header "InterestingNumberLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module InterestingNumberLibrary.Swift {
+  header "InterestingNumberLibrary-Swift.h"
+  requires objc
+}

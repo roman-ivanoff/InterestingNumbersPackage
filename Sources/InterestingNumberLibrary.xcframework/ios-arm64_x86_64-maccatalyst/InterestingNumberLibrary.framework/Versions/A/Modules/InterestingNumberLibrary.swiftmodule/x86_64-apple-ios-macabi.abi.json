@@ -1,0 +1,1614 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServiceError",
+        "printedName": "ServiceError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError.Type) -> InterestingNumberLibrary.ServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceError",
+                    "printedName": "InterestingNumberLibrary.ServiceError",
+                    "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.ServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO10invalidURLyA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO10invalidURLyA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponseStatus",
+            "printedName": "invalidResponseStatus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError.Type) -> InterestingNumberLibrary.ServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceError",
+                    "printedName": "InterestingNumberLibrary.ServiceError",
+                    "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.ServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO21invalidResponseStatusyA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO21invalidResponseStatusyA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "dataTaskError",
+            "printedName": "dataTaskError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError.Type) -> (Swift.String) -> InterestingNumberLibrary.ServiceError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> InterestingNumberLibrary.ServiceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.ServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO08dataTaskE0yACSScACmF",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO08dataTaskE0yACSScACmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "corruptData",
+            "printedName": "corruptData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError.Type) -> InterestingNumberLibrary.ServiceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceError",
+                    "printedName": "InterestingNumberLibrary.ServiceError",
+                    "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.ServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO11corruptDatayA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO11corruptDatayA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError.Type) -> (Swift.String) -> InterestingNumberLibrary.ServiceError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> InterestingNumberLibrary.ServiceError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.ServiceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceError",
+                        "printedName": "InterestingNumberLibrary.ServiceError",
+                        "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO08decodingE0yACSScACmF",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO08decodingE0yACSScACmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary12ServiceErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO16errorDescriptionSSSgvp",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary12ServiceErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO16errorDescriptionSSSgvg",
+                "moduleName": "InterestingNumberLibrary",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24InterestingNumberLibrary12ServiceErrorO",
+        "mangledName": "$s24InterestingNumberLibrary12ServiceErrorO",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Regexes",
+        "printedName": "Regexes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userNumber",
+            "printedName": "userNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.Regexes.Type) -> InterestingNumberLibrary.Regexes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.Regexes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Regexes",
+                        "printedName": "InterestingNumberLibrary.Regexes",
+                        "usr": "s:24InterestingNumberLibrary7RegexesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary7RegexesO04userB0yA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO04userB0yA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "numberInRange",
+            "printedName": "numberInRange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.Regexes.Type) -> InterestingNumberLibrary.Regexes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.Regexes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Regexes",
+                        "printedName": "InterestingNumberLibrary.Regexes",
+                        "usr": "s:24InterestingNumberLibrary7RegexesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary7RegexesO13numberInRangeyA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO13numberInRangeyA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "multipleNumber",
+            "printedName": "multipleNumber",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.Regexes.Type) -> InterestingNumberLibrary.Regexes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.Regexes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Regexes",
+                        "printedName": "InterestingNumberLibrary.Regexes",
+                        "usr": "s:24InterestingNumberLibrary7RegexesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary7RegexesO08multipleB0yA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO08multipleB0yA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "numberInRangeForValidation",
+            "printedName": "numberInRangeForValidation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.Regexes.Type) -> InterestingNumberLibrary.Regexes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.Regexes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Regexes",
+                        "printedName": "InterestingNumberLibrary.Regexes",
+                        "usr": "s:24InterestingNumberLibrary7RegexesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary7RegexesO26numberInRangeForValidationyA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO26numberInRangeForValidationyA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Var",
+            "name": "multipleNumberForValidation",
+            "printedName": "multipleNumberForValidation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.Regexes.Type) -> InterestingNumberLibrary.Regexes",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InterestingNumberLibrary.Regexes.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Regexes",
+                        "printedName": "InterestingNumberLibrary.Regexes",
+                        "usr": "s:24InterestingNumberLibrary7RegexesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24InterestingNumberLibrary7RegexesO08multipleB13ForValidationyA2CmF",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO08multipleB13ForValidationyA2CmF",
+            "moduleName": "InterestingNumberLibrary"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InterestingNumberLibrary.Regexes?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Regexes",
+                    "printedName": "InterestingNumberLibrary.Regexes",
+                    "usr": "s:24InterestingNumberLibrary7RegexesO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24InterestingNumberLibrary7RegexesO8rawValueACSgSS_tcfc",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO8rawValueACSgSS_tcfc",
+            "moduleName": "InterestingNumberLibrary",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary7RegexesO8rawValueSSvp",
+            "mangledName": "$s24InterestingNumberLibrary7RegexesO8rawValueSSvp",
+            "moduleName": "InterestingNumberLibrary",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary7RegexesO8rawValueSSvg",
+                "mangledName": "$s24InterestingNumberLibrary7RegexesO8rawValueSSvg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24InterestingNumberLibrary7RegexesO",
+        "mangledName": "$s24InterestingNumberLibrary7RegexesO",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TextFieldModel",
+        "printedName": "TextFieldModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "contains",
+            "printedName": "contains(string:regex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary14TextFieldModelC8contains6string5regexSbSS_SStFZ",
+            "mangledName": "$s24InterestingNumberLibrary14TextFieldModelC8contains6string5regexSbSS_SStFZ",
+            "moduleName": "InterestingNumberLibrary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkBackspace",
+            "printedName": "checkBackspace(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary14TextFieldModelC14checkBackspace6stringSbSS_tFZ",
+            "mangledName": "$s24InterestingNumberLibrary14TextFieldModelC14checkBackspace6stringSbSS_tFZ",
+            "moduleName": "InterestingNumberLibrary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidNumberInRange",
+            "printedName": "isValidNumberInRange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary14TextFieldModelC07isValidB7InRangeySbSSFZ",
+            "mangledName": "$s24InterestingNumberLibrary14TextFieldModelC07isValidB7InRangeySbSSFZ",
+            "moduleName": "InterestingNumberLibrary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidMultipleNumbers",
+            "printedName": "isValidMultipleNumbers(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary14TextFieldModelC22isValidMultipleNumbersySbSSFZ",
+            "mangledName": "$s24InterestingNumberLibrary14TextFieldModelC22isValidMultipleNumbersySbSSFZ",
+            "moduleName": "InterestingNumberLibrary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24InterestingNumberLibrary14TextFieldModelC",
+        "mangledName": "$s24InterestingNumberLibrary14TextFieldModelC",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NumbersService",
+        "printedName": "NumbersService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(session:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NumbersService",
+                "printedName": "InterestingNumberLibrary.NumbersService",
+                "usr": "s:24InterestingNumberLibrary14NumbersServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24InterestingNumberLibrary14NumbersServiceC7sessionACSo12NSURLSessionC_tcfc",
+            "mangledName": "$s24InterestingNumberLibrary14NumbersServiceC7sessionACSo12NSURLSessionC_tcfc",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getFacts",
+            "printedName": "getFacts(numbers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary14NumbersServiceC8getFacts7numbersSDyS2SGSS_tYaKF",
+            "mangledName": "$s24InterestingNumberLibrary14NumbersServiceC8getFacts7numbersSDyS2SGSS_tYaKF",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary14NumbersServiceC15unownedExecutorScevp",
+            "mangledName": "$s24InterestingNumberLibrary14NumbersServiceC15unownedExecutorScevp",
+            "moduleName": "InterestingNumberLibrary",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary14NumbersServiceC15unownedExecutorScevg",
+                "mangledName": "$s24InterestingNumberLibrary14NumbersServiceC15unownedExecutorScevg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24InterestingNumberLibrary14NumbersServiceC",
+        "mangledName": "$s24InterestingNumberLibrary14NumbersServiceC",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnyActor",
+            "printedName": "AnyActor",
+            "usr": "s:12_Concurrency8AnyActorP",
+            "mangledName": "$ss8AnyActorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InputRuleProtocol",
+        "printedName": "InputRuleProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "rule",
+            "printedName": "rule(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary17InputRuleProtocolP4rule6stringSbSS_tF",
+            "mangledName": "$s24InterestingNumberLibrary17InputRuleProtocolP4rule6stringSbSS_tF",
+            "moduleName": "InterestingNumberLibrary",
+            "genericSig": "<τ_0_0 where τ_0_0 : InterestingNumberLibrary.InputRuleProtocol>",
+            "sugared_genericSig": "<Self where Self : InterestingNumberLibrary.InputRuleProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24InterestingNumberLibrary17InputRuleProtocolP",
+        "mangledName": "$s24InterestingNumberLibrary17InputRuleProtocolP",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NumberModel",
+        "printedName": "NumberModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "facts",
+            "printedName": "facts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[InterestingNumberLibrary.Fact]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Fact",
+                    "printedName": "InterestingNumberLibrary.Fact",
+                    "usr": "s:24InterestingNumberLibrary4FactV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvp",
+            "mangledName": "$s24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvp",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InterestingNumberLibrary.Fact]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Fact",
+                        "printedName": "InterestingNumberLibrary.Fact",
+                        "usr": "s:24InterestingNumberLibrary4FactV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvg",
+                "mangledName": "$s24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InterestingNumberLibrary.Fact]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Fact",
+                        "printedName": "InterestingNumberLibrary.Fact",
+                        "usr": "s:24InterestingNumberLibrary4FactV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvs",
+                "mangledName": "$s24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvs",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvM",
+                "mangledName": "$s24InterestingNumberLibrary0B5ModelC5factsSayAA4FactVGvM",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary0B5ModelC6numberSSvp",
+            "mangledName": "$s24InterestingNumberLibrary0B5ModelC6numberSSvp",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary0B5ModelC6numberSSvg",
+                "mangledName": "$s24InterestingNumberLibrary0B5ModelC6numberSSvg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(number:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NumberModel",
+                "printedName": "InterestingNumberLibrary.NumberModel",
+                "usr": "s:24InterestingNumberLibrary0B5ModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24InterestingNumberLibrary0B5ModelC6numberACSS_tcfc",
+            "mangledName": "$s24InterestingNumberLibrary0B5ModelC6numberACSS_tcfc",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getFacts",
+            "printedName": "getFacts(numbers:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([InterestingNumberLibrary.Fact]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InterestingNumberLibrary.Fact]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Fact",
+                        "printedName": "InterestingNumberLibrary.Fact",
+                        "usr": "s:24InterestingNumberLibrary4FactV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InterestingNumberLibrary.ServiceError) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceError",
+                    "printedName": "InterestingNumberLibrary.ServiceError",
+                    "usr": "s:24InterestingNumberLibrary12ServiceErrorO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary0B5ModelC8getFacts7numbers9onSuccess0H5ErrorySS_ySayAA4FactVGcyAA07ServiceJ0OctF",
+            "mangledName": "$s24InterestingNumberLibrary0B5ModelC8getFacts7numbers9onSuccess0H5ErrorySS_ySayAA4FactVGcyAA07ServiceJ0OctF",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24InterestingNumberLibrary0B5ModelC",
+        "mangledName": "$s24InterestingNumberLibrary0B5ModelC",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Fact",
+        "printedName": "Fact",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary4FactV6numberSSvp",
+            "mangledName": "$s24InterestingNumberLibrary4FactV6numberSSvp",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary4FactV6numberSSvg",
+                "mangledName": "$s24InterestingNumberLibrary4FactV6numberSSvg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fact",
+            "printedName": "fact",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24InterestingNumberLibrary4FactV4factSSvp",
+            "mangledName": "$s24InterestingNumberLibrary4FactV4factSSvp",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24InterestingNumberLibrary4FactV4factSSvg",
+                "mangledName": "$s24InterestingNumberLibrary4FactV4factSSvg",
+                "moduleName": "InterestingNumberLibrary",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Fact",
+                "printedName": "InterestingNumberLibrary.Fact",
+                "usr": "s:24InterestingNumberLibrary4FactV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24InterestingNumberLibrary4FactV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s24InterestingNumberLibrary4FactV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "InterestingNumberLibrary",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24InterestingNumberLibrary4FactV",
+        "mangledName": "$s24InterestingNumberLibrary4FactV",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OnlyNumbersRule",
+        "printedName": "OnlyNumbersRule",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(regex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OnlyNumbersRule",
+                "printedName": "InterestingNumberLibrary.OnlyNumbersRule",
+                "usr": "s:24InterestingNumberLibrary15OnlyNumbersRuleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24InterestingNumberLibrary15OnlyNumbersRuleV5regexACSS_tcfc",
+            "mangledName": "$s24InterestingNumberLibrary15OnlyNumbersRuleV5regexACSS_tcfc",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "rule",
+            "printedName": "rule(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24InterestingNumberLibrary15OnlyNumbersRuleV4rule6stringSbSS_tF",
+            "mangledName": "$s24InterestingNumberLibrary15OnlyNumbersRuleV4rule6stringSbSS_tF",
+            "moduleName": "InterestingNumberLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24InterestingNumberLibrary15OnlyNumbersRuleV",
+        "mangledName": "$s24InterestingNumberLibrary15OnlyNumbersRuleV",
+        "moduleName": "InterestingNumberLibrary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "InputRuleProtocol",
+            "printedName": "InputRuleProtocol",
+            "usr": "s:24InterestingNumberLibrary17InputRuleProtocolP",
+            "mangledName": "$s24InterestingNumberLibrary17InputRuleProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 7,
+      "value": "\"[0-9]\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 12,
+      "value": "\"^[.0-9]+$*\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 12,
+      "value": "\"^[,0-9]+$*\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 20,
+      "value": "\"[0-9]+[.]{2}[0-9]+\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 19,
+      "value": "\"[0-9]+(,[0-9]+)*$\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 7,
+      "value": "\"[0-9]\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 12,
+      "value": "\"^[.0-9]+$*\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 12,
+      "value": "\"^[,0-9]+$*\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 20,
+      "value": "\"[0-9]+[.]{2}[0-9]+\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/Regexes.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 19,
+      "value": "\"[0-9]+(,[0-9]+)*$\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Services\/Networking\/NumbersService.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 24,
+      "value": "\"http:\/\/numbersapi.com\/\""
+    },
+    {
+      "filePath": "\/Users\/RomanIvanov\/other\/projects\/InterestingNumberLibrary\/InterestingNumberLibrary\/Models\/NumberModel.swift",
+      "kind": "Array",
+      "offset": 168,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
